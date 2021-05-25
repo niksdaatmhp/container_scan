@@ -1,5 +1,5 @@
 {
-  "org.label-schema.version":"$(git rev-parse --short HEAD)",
+  "org.label-schema.version":"1.0.0",
   "org.label-schema.license":"vw.oso.notApproved",
-  "org.label-schema.build-date":"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+  "org.label-schema.build-date":"11-04-2021"
 }
