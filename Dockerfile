@@ -1,4 +1,3 @@
-FROM openjdk:jre-alpine
-LABEL maintainer="dev@someproject.org"
-ARG BUILD_DATE
-LABEL org.label-schema.build-date=$BUILD_DATE
+FROM alpine:3.5
+RUN apk update
+RUN apk add git
